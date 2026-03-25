@@ -14,6 +14,9 @@ This project tackles the challenge of monitoring global stability by merging rea
 
 ### 𝗦𝘆𝘀𝘁𝗲𝗺 𝗦𝘁𝗮𝘁𝘂𝘀: 🔴 100% (𝗖𝗿𝗶𝘁𝗶𝗰𝗮𝗹 𝗥𝗶𝘀𝗸)
 
+![Global_Tension_Level](./images/Global_Tension_Level.jpg)
+
+
 ## Key Features
 
 * **Edge Ingestion:** Real-time data collection using Python on Raspberry Pi 3 hardware.
@@ -29,12 +32,16 @@ This project tackles the challenge of monitoring global stability by merging rea
 * **Database:** Oracle Autonomous Database (Always Free Tier) / OCI Object Storage
 * **Libraries:** `oci`, `pandas`, `requests`, `python-oracledb`
 
+![Database Schema](./images/DataBase.jpg)
+
 ## 📂 Project Structure
 
 * **`edge_monitor.py`**: The main Python script running on Raspberry Pi for real-time data ingestion.
 * **`oci_uploader.py`**: Integration layer for pushing processed edge data to OCI Object Storage or ADB.
 * **`schema_setup.sql`**: SQL scripts to prepare the OCI Autonomous Database for conflict event logging.
 * **`analysis/`**: Jupyter notebooks for predictive modeling and risk trend visualization.
+
+![Raspberry_Working](./images/Raspberry_Working.jpeg)
 
 ## 🔧 Setup & Installation
 
